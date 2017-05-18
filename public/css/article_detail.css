@@ -1,0 +1,248 @@
+/*============CONTENT=================*/
+#content{
+
+}
+/*===========Breadcrumb=========*/
+.breadcrumb {
+    background: #fff;
+    padding: 10px;
+    margin: 0 0 10px;
+    font-size: 12px;
+    color: #949494;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.breadcrumb a {
+	color: #949494;
+}
+
+.breadcrumb a.current{
+	color: #535353;
+}
+
+/*============Article Detail=================*/
+.article{
+
+}
+
+.detail-content{
+	padding: 0 10px;
+}
+
+.detail-content h1 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #2ca9e1;
+    line-height: 32px;
+    margin: 0 0 15px;
+}
+
+.detail-content .abstract {
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 700;
+    color: #555;
+    line-height: 1.4em;
+}
+
+.detail-content .article-related-top {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.article-related-top ul {
+	padding: 0;
+    border: 0;
+}
+
+
+.detail-content .article-related-top li {
+    list-style: none;
+    position: relative;
+    color: #ff4d92;
+    font-size: 15px;
+}
+
+.detail-content .article-related-top li a {
+    line-height: 20px;
+    font-size: 15px;
+    display: inline-block;
+    color: #1e99d5;
+    padding: 3px 0;
+}
+
+
+.detail-content .article-related-top li:after {
+    display: inline-block;
+    content: "";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    left: -20px;
+    top: 8px;
+    font-size: 8px;
+}
+
+
+.detail-content .detail-body h2, .detail-content .detail-body h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #555;
+}
+
+
+.detail-content .detail-body a {
+    color: #2ca9e1;
+}
+
+.detail-body ul {
+	padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+
+.detail-content .detail-body .jsArticleStep .stepNumber {
+    margin-right: 10px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    background: url(https://media.lamsao.com/Themes/Portal/Default/Images/bg-step.png) no-repeat center center;
+}
+
+
+
+.article-related-bot h4 {
+    font-weight: 500;
+    font-size: 22px;
+    border-left: 3px solid #ff4d92;
+    background: url(https://media.lamsao.com/Themes/Portal/Default/Images/border-categories-home.png) repeat-x;
+    background-position: bottom 5px left 190px;
+    margin-bottom: 15px;
+}
+
+.article-related-bot h4 span {
+    display: inline-block;
+    padding-left: 15px;
+    color: #03a9f4;
+    background-color: #fff;
+    padding-right: 10px;
+}
+
+.article-related-bot ul {
+	padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.article-related-bot .list-article li {
+    width: auto;
+    float: none;
+    margin-right: 0;
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+.article-related-bot .list-article li img {
+    float: left;
+    width: 130px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.article-related-bot .list-article li .title span {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    overflow: visible;
+    color: #333;
+    display: block;
+    margin: 10px 0;
+    height: 50px;
+}
+
+
+
+/*=========Video Relate=============*/
+.video-ralated h4 {
+    font-weight: 500;
+    font-size: 22px;
+    border-left: 3px solid #ff4d92;
+    background: url(https://media.lamsao.com/Themes/Portal/Default/Images/border-categories-home.png) repeat-x;
+    background-position: bottom 5px left 190px;
+    margin-bottom: 15px;
+}
+
+.video-ralated h4 span {
+    display: inline-block;
+    background: #fff;
+    color: #03a9f4;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.video-ralated ul {
+	padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.article-related-bot .list-article li {
+    width: auto;
+    float: none;
+    margin-right: 0;
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+.video-ralated li.first-video {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.video-ralated li.first-video iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.video-ralated li span.title {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+
+.video-ralated li.other-video {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.video-ralated li.other-video a {
+    display: block;
+    min-height: 110px;
+}
+
+.video-ralated li.other-video img {
+    width: 150px;
+    height: auto;
+    float: left;
+    vertical-align: middle;
+}
+
+.video-ralated li.other-video span.title {
+    padding-left: 160px;
+    display: block;
+   	font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
